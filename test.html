@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quote Machine</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Quote</title>
+
+  <!-- Bootstrap Core CSS -->
+ 
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/superhero/bootstrap.min.css">
+  <!-- Custom CSS -->
+  
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <style>
+   body {
+    margin: 25px;
+  }
+  .jumbotron {
+    border-radius: 50px !important;
+  }
+  .btn {
+    border-radius: 25px;
+  }
+</style>
+
+</head>
+<body ng-app="noServer">
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Bad A** Quote Machine</h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-center">Pick A Legend</h1>
+        <div class="col-lg-6 col-lg-offset-3">
+          <div class="col-md-4 text-center">
+            <a ui-sref="chucky" class="btn btn-success">Chuck Norris</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a ui-sref="brucy" class="btn btn-success">Bruce Lee</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a ui-sref="clinty" class="btn btn-success">Clint Eastwood</a>
+          </div>
+        </div>
+        <div class="col-lg-12 text-center">
+          <hr />
+          <button class="btn btn-primary btn-lg">BOOM!!!</button>
+          <div ui-view class="theView"></div>
+          <h3>Lorem ipsum dolor sit amet</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    
+    <script type="text/javascript" src="myApp.js"></script>
+    <script type="text/javascript" src="1mainCtrl.js"></script>
+    <script type="text/javascript" src="2mainCtrl.js"></script>
+    <script type="text/javascript" src="3mainCtrl.js"></script>
+    <script type="text/javascript" src="service.js"></script>
+    <script type="text/javascript" src="js/directive1.js"></script>
+    <script type="text/javascript" src="js/directive2.js"></script>
+   
+
+</body>
+
+</body>
+</html>
+
+
+
